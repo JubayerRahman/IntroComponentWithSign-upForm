@@ -84,6 +84,9 @@ button{
     color: hsl(0, 100%, 74%) ;
     font-weight: bold;
 }
+.attribution{
+    text-align: center;
+}
 
 @media (max-width:768px) {
     main{
@@ -102,5 +105,8 @@ button{
     .rightSection{
         width: 90%;
         margin-bottom: 30px;
+    }
+    .attribution{
+        font-size: 14px;
     }
 }
